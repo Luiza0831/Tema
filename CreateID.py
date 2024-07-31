@@ -1,5 +1,5 @@
 import os
-path='tema/tema/Tema/LastID.txt'
+from date import *
 
 class createID():
 
