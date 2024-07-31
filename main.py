@@ -1,4 +1,3 @@
-from Inregistrare import InregistrareUtilizator
 from Utilizator import utilizator
 from date import *
 import random
@@ -12,5 +11,4 @@ def importa_n_angajati(n):
 
 def importa_angajat(numeAngajat,prenumeAngajat,compania,idManagerAngajat):
     angajat=utilizator(numeAngajat,prenumeAngajat,compania,idManagerAngajat)
-    inregistrare=InregistrareUtilizator(angajat.utilizator)
-    inregistrare.inregistrez_utilizator()
+    angajat.inregistrez_utilizator()
